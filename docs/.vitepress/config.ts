@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import './theme/custom.css'
 
 export default defineConfig({
   title: 'Site of Waipok Fu',
