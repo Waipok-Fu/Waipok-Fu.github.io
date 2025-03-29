@@ -11,4 +11,5 @@ title: 首页
 - 💻 擅长 JavaScript / React / TypeScript /
 
 👉 [查看我的简历](resume.md)
+👉 [查看我的项目](projects.md)
 👉 [了解更多关于我](about.md)
