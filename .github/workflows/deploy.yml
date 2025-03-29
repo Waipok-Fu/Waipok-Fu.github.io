@@ -36,9 +36,8 @@ jobs:
       - name: List build output
         run: ls -R ./docs/.vitepress/dist
 
-
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v2
         with:
           path: docs/.vitepress/dist
 
