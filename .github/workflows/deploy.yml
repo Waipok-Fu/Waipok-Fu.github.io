@@ -33,6 +33,10 @@ jobs:
       - name: Build website
         run: npx vitepress build docs
 
+      - name: List build output
+        run: ls -R ./docs/.vitepress/dist
+
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
