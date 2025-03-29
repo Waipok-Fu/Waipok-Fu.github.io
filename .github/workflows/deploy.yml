@@ -34,7 +34,7 @@ jobs:
         run: npx vitepress build docs
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./docs/.vitepress/dist
 
